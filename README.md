@@ -63,11 +63,11 @@ You should see: **Server running at http://localhost:8000**
 
 ```bash
 cd client
-npm start
+npm run dev
 
 ```
 
-Open your browser at **http://localhost:3000**.
+Open your browser at **http://localhost:5173**.
 
 ### Project Structure
 
