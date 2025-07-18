@@ -36,7 +36,7 @@ const App = () => {
     <div className="app">
       <section className="personal-info">
         <h2>Lior Kozai</h2>
-        <p>Humber College Computer Programming Student</p>
+        <p>Humber Polytechnic Computer Programming Graduate</p>
         <p>Email: l.b.kozai@gmail.com</p>
       </section>
       <section className="section">
