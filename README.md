@@ -18,7 +18,7 @@ A clean and responsive full-stack resume website built with React for the fronte
 
 - **React** (Functional Components, Hooks)
 - **Express.js** (API backend)
-- **JavaScript (ES6+)**
+- **JavaScript**
 - **CSS**
 - **CORS** for cross-origin requests
 
