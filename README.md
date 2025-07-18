@@ -103,10 +103,21 @@ personal-resume-website/
 
 ```
 
+## API Reference
 
+The backend provides the following endpoints, returning JSON data for the resume:
 
+| Route        | Description               |
+|--------------|---------------------------|
+| `/overview`  | Personal bio and summary  |
+| `/skills`    | Array of relevant skills  |
+| `/education` | List of education entries |
+| `/projects`  | List of academic projects |
+| `/experience`| Work experience details   |
 
+## Notes
 
-
-
-
+- Ensure the backend server is running before starting the frontend.
+- The frontend expects the backend to be available at `http://localhost:8000`.
+- CORS is enabled on the backend to allow cross-origin requests.
+- The frontend fetches data on mount and renders each section accordingly.
