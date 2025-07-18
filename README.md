@@ -34,5 +34,79 @@ To run this project locally:
 git clone https://github.com/your-username/personal-resume-website.git
 cd personal-resume-website
 
+```
+
 ### 2. Install dependencies for both client and server:
+
+```bash
+# In client folder
+cd client
+npm install
+
+# In server folder (open another terminal window/tab)
+cd ../server
+npm install
+
+```
+
+### 3. Start the backend server
+
+```bash
+cd server
+npm start
+
+```
+
+You should see: **Server running at http://localhost:8000**
+
+### 4. Start the frontend development server (in a separate terminal)
+
+```bash
+cd client
+npm start
+
+```
+
+Open your browser at **http://localhost:3000**.
+
+### Project Structure
+
+```bash
+personal-resume-website/
+├── client/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   └── .gitignore
+├── server/
+│   ├── node_modules/
+│   ├── routes/
+│   │   ├── education.js
+│   │   ├── experience.js
+│   │   ├── overview.js
+│   │   ├── projects.js
+│   │   └── skills.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── server.js
+│   └── .gitignore
+├── .gitignore
+└── README.md
+
+```
+
+
+
+
+
+
+
 
