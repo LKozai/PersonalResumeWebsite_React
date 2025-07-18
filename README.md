@@ -72,33 +72,24 @@ Open your browser at **http://localhost:5173**.
 ### Project Structure
 
 ```bash
-personal-resume-website/
-├── client/
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── vite.config.js
-│   └── .gitignore
-├── server/
-│   ├── node_modules/
-│   ├── routes/
-│   │   ├── education.js
-│   │   ├── experience.js
-│   │   ├── overview.js
-│   │   ├── projects.js
-│   │   └── skills.js
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── server.js
-│   └── .gitignore
-├── .gitignore
+PersonalResumeWebsite/
+├── client/                    # Frontend React application (Vite)
+│   ├── index.html             # Entry point HTML
+│   ├── package.json           # Frontend dependencies and scripts
+│   ├── vite.config.js         # Vite configuration
+│   └── src/                   # React source files
+│       ├── App.jsx            # Main App component
+│       ├── main.jsx           # ReactDOM render entry
+│       ├── components/        # (Optional) Reusable components
+│       └── assets/            # (Optional) Images, styles, etc.
+├── server/                    # Backend Express server
+│   ├── server.js              # Main server entry point
+│   └── routes/                # API route handlers
+│       ├── education.js
+│       ├── experience.js
+│       ├── overview.js
+│       ├── projects.js
+│       └── skills.js
 └── README.md
 
 ```
